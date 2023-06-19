@@ -1,0 +1,42 @@
+/* .dashboard-bg{
+  background-color: rgb(4, 0, 66);
+} */
+
+
+.dashboard-container {
+  width: 107%;
+    padding: 17px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dashboard-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .dashboard-table {
+    width: 100%;
+  }
+  
+  .dashboard-table th {
+    font-weight: bold;
+    text-align: left;
+    background-color: #f9f9f9;
+    padding: 8px;
+  }
+  
+  .dashboard-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .dashboard-actions {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .dashboard-actions button {
+    padding: 4px 8px;
+  }
